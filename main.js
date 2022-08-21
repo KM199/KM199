@@ -2,7 +2,10 @@ const introParagraph = "<p>Web3? dApp? Blockchain? You can count on hulio to be 
 const mainButtons = `<button onclick="window.open('https://github.com/idealistworld/hulio', '_blank')" id="action-button1" class="fifth" onclick="location.href = 'https://youtube.com';"> Download </button> <button id="action-button2" class="fifth" onclick="howItWorks()">Features</button></div>`;
 const arrayNavButtons = `<div style = "width: 40%;"><button id="action-button2" class="fifth nav" onclick="prev()">Previous</button> <button id="action-button2" class="fifth nav" onclick="next()", '_blank')">Continue</button>`;
 const vanityMetrics = `<div id="vanity-metrics"><div id="vanity1"> <h1>30+</h1> <div class="vanity-writing"> Solana Partners </div> </div> <div id="vanity2"> <h1>10,000+</h1> <div class="vanity-writing"> Downloads </div> </div> </div>`;
-const actionButtons = `<div id="action-button"> <button id="action-button1" class="fifth glow" onclick="window.open('https://github.com/idealistworld/hulio', '_blank')"> Download </button> <button id="action-button2" class="fifth glow" onclick="howItWorks()"> Features </button> </div>`;
+const actionButtons = `<div id="action-button"> <button id="action-button1" class="fifth glow" onclick="window.open('https://github.com/idealistworld/hulio', '_blank')"> Download </button>                   <button id="action-button2" class="fifth glow" onclick="window.open('https://twitter.com/hulioapp', '_blank')" >
+<img id="twitter" src="./twitter.png">
+    Twitter
+</button> </div>`;
 const infoLinks = `<div style = "width: 80%;"><button id="action-button2" class="fifth nav" onclick="window.open('https://docs.google.com/presentation/d/1voLaGQ93hmkyzcT5xl4rcQb-_wgRvSuW7KEf2tH71cE/edit?usp=sharing', '_blank')">Pitch Deck</button> <button id="action-button2" class="fifth nav" onclick="window.open('https://youtu.be/Dq0MKkCk99s', '_blank')">Pitch Video</button>`;
 const contactUs = `<div>Being crypto enthusiasts at heart, we cherish the space, community, and constantly strive to help all aspects of it. Whether you’re looking to partner or just chat, we’d love to connect. Hope to hear from you soon!</div>`
 
@@ -51,6 +54,7 @@ const contact = () => {
     document.getElementById("action-button").innerHTML = `<button onclick="location.href = 'mailto: cnakayama567@gmail.com';" class="btn-flip" data-back="Hello! :)" data-front="Email Us"></button> <button onclick="window.open('https://t.me/idealist', '_blank')" class="btn-flip" data-back="Hello! :)" data-front="Text Us"></Button>`;
     document.getElementById("vanity-metrics").innerHTML = "";
 }
+
 
 const home = () => {
     document.getElementById("writing-title").innerHTML = `<h1>Your personal <br> "<div class="effect">friend</div> that does <span class="txt-rotate" data-period="2000"
