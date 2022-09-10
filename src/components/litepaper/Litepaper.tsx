@@ -1,14 +1,11 @@
+import '../../styles/styles.css' 
 
 
 const Litepaper = () => {
     return (
         <div className="litepaper-container" id = "writing">
-            <h1 id = "litepaper-title">hulio Litepaper</h1>
-            <div style={{
-                color: 'white', borderRadius: '7px', padding: '3%', backgroundImage: 'linear-gradient(to right, #101010 0%, #1a1a1a 51%, #101010 100%)'
-                , height: '220px', width: '60%', border: '1px solid #4e4e4e', overflow: 'auto', filter: 'drop-shadow(0px 0px 20px #8000FF)',
-                boxShadow: '0px 0px 20px #8000FF inset', borderWidth: '2.5px', borderColor: "#AB56FF"
-            }} className="scroll">
+            <h1 id = "litepaper-title">Litepaper</h1>
+            <div className="scroll">
                 <p style={{ color: 'white' }}><h3>hulio.app Litepaper</h3>
                     <br />
                     Our goal is to make sure the next “1B+ crypto users” are not just passive holders, but engaged, educated, and active web3 community members. We plan to accomplish this through increasing security for web3 users and providing a on chain “Coinbase Earn” type program for teaching users about the Solana dApp ecosystem. These two features will lower the barrier to entry for passive holders and help enable them to become active web3 users.
@@ -98,7 +95,7 @@ const Litepaper = () => {
                     <br />
                     more coming soon...</p>
             </div>
-            <div className="infoButtons"><button id="action-button1" onClick = {() => window.open('https://docs.google.com/presentation/d/1voLaGQ93hmkyzcT5xl4rcQb-_wgRvSuW7KEf2tH71cE/edit?usp=sharing')}>Pitch Deck</button> <button id="action-button2" onClick = {() => window.open('https://youtu.be/Dq0MKkCk99s')}>Pitch Video</button></div>
+            <div className="infoButtons"><button id="action-button1" onClick = {() => window.open('https://docs.google.com/presentation/d/1voLaGQ93hmkyzcT5xl4rcQb-_wgRvSuW7KEf2tH71cE/edit?usp=sharing')}>Deck</button> <button id="action-button2" onClick = {() => window.open('https://youtu.be/Dq0MKkCk99s')}>Video</button></div>
         </div>
     )
 }

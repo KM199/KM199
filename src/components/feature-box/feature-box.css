@@ -18,3 +18,31 @@
     font-weight: 100;
     font-size: 14.1px;
 }
+
+@media only screen and (max-device-width: 450px) 
+{
+    .feature-box{
+        height: auto;
+        width: auto;
+        border-radius: 5px;
+        margin: 3vw 0px;
+        border: 1.5px solid #AB56FF;
+        filter: drop-shadow(0px 0px 8px #8000FF);
+        box-shadow: 0px 0px 8px #8000FF inset;
+        background-image: url("../../styles/icons/background.jpg");
+    }
+    
+    .feature-box-content {
+        padding: 3% 5%;
+    }
+    
+    .feature-box-paragraph {
+        margin-top: 1.5%;
+        font-weight: 100;
+        font-size: 14.1px;
+    }
+    
+    .feature-box-title {
+        font-size: 6vw;
+    }
+}

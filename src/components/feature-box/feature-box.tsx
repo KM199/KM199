@@ -7,7 +7,7 @@ const FeatureBox = (props : any) => {
     return (
         <div className="feature-box">
             <div className = "feature-box-content">
-            <h1>{title}</h1>
+            <h1 className = "feature-box-title">{title}</h1>
             <p className = "feature-box-paragraph">{paragraph}</p>
             </div>
         </div>
