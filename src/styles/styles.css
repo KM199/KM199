@@ -466,7 +466,7 @@ a {
     #writing-title {
         display: inline;
         text-align: center;
-        font-size: 7vw;
+        font-size: 5.5vw;
         font-weight: 900;
         background-color: red;
         width: 100%;
@@ -514,7 +514,7 @@ a {
     }
 
     .features-container {
-       margin-top: 12%;
+       margin-top: 8%;
     }
 
     #litepaper-title {
@@ -536,7 +536,7 @@ a {
         border-radius: 7px;
         padding: 3%;
         background-image: linear-gradient(to right, #101010 0%, #1a1a1a 51%, #101010 100%);
-        height: 400px;
+        height: 40vh;
         width: 80%;
         border: 1px solid #4e4e4e;
         overflow: scroll;
