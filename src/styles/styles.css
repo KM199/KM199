@@ -452,13 +452,21 @@ a {
 @media only screen and (max-device-width: 450px) {
     #writing-container {
         width: 83%;
-        margin: 6%;
+        position: absolute;
+        left: 50%;
+        top: 44.5%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .txt-rotate {
+        display: block;
     }
 
     #writing-title {
         display: inline;
         text-align: center;
-        font-size: 190%;
+        font-size: 7vw;
         font-weight: 900;
         background-color: red;
         width: 100%;
@@ -467,7 +475,7 @@ a {
     .paragraph-content {
         width: 100%;
         margin-top: 3vw;
-        font-size: 4.5vw;
+        font-size: 3vw;
         text-align: center;
     }
 

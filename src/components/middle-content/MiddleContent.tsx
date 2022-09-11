@@ -10,9 +10,9 @@ const MiddleContent = () => {
                     <h1>Your personal "<div className="effect">friend</div> that does{' '}
                     <span className="txt-rotate">
                     <ReactRotatingText
-                        items={["crypto", "web3", "NFTs", "DeFi", "GameFi"]}
+                        items={['Crypto".', 'web3".', `NFTs".`, `DeFi".`, `GameFi".`]}
                         />
-                        </span>".</h1>
+                        </span></h1>
                 </div>
                 <div id="action-button">
                 <button id="action-button1" onClick = {() => window.open('https://chrome.google.com/webstore/detail/hulio/olikokhekcibedhfkhbkmphgmopigibb')}>
