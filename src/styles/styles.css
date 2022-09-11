@@ -454,7 +454,7 @@ a {
         width: 83%;
         position: absolute;
         left: 50%;
-        top: 42%;
+        top: 38%;
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
@@ -468,7 +468,6 @@ a {
         text-align: center;
         font-size: 6vw;
         font-weight: 900;
-        background-color: red;
         width: 100%;
     }
 
