@@ -5,6 +5,7 @@ import Home from './pages/home';
 import Litepaper from './pages/litepaper';
 import ContactElement from './pages/contact';
 import FeaturesPage from './pages/features';
+import CreateTutorial from './pages/create-tutorial';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/features' element={<FeaturesPage />} />
         <Route path='/contact' element={<ContactElement />} />
         <Route path='/litepaper' element={<Litepaper />} />
+        <Route path='/create-tutorial' element={<CreateTutorial />} />
       </Routes>
     </Router>
   );

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ReactRotatingText from 'react-rotating-text';
 
 const MiddleContent = () => {
 
@@ -6,9 +7,12 @@ const MiddleContent = () => {
         <div id="writing">
             <div id="writing-container">
                 <div id="writing-title">
-                    <h1>Your personal "<div className="effect">friend</div> that does <span className="txt-rotate"
-                        data-period="2000"
-                        data-rotate={["crypto", "web3", "NFTs", "DeFi", "GameFi"]}></span>".</h1>
+                    <h1>Your personal "<div className="effect">friend</div> that does{' '}
+                    <span className="txt-rotate">
+                    <ReactRotatingText
+                        items={["crypto", "web3", "NFTs", "DeFi", "GameFi"]}
+                        />
+                        </span>".</h1>
                 </div>
                 <div id="action-button">
                 <button id="action-button1" onClick = {() => window.open('https://chrome.google.com/webstore/detail/hulio/olikokhekcibedhfkhbkmphgmopigibb')}>
