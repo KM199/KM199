@@ -454,7 +454,7 @@ a {
         width: 83%;
         position: absolute;
         left: 50%;
-        top: 44.5%;
+        top: 42%;
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
@@ -466,7 +466,7 @@ a {
     #writing-title {
         display: inline;
         text-align: center;
-        font-size: 5.5vw;
+        font-size: 6.25vw;
         font-weight: 900;
         background-color: red;
         width: 100%;
