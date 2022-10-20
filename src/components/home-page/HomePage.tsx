@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import glass from '../../styles/icons/glass.png'
 import name from '../../styles/icons/name.svg'
 import twitter from '../../styles/icons/twitter.png'
